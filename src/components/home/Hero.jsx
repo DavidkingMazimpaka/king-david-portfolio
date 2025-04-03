@@ -8,8 +8,8 @@ import Button from '../common/Button';
 const Hero = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const texts = [
-    "Full Stack Engineer",
-    "Software Developer",
+    "Full Stack Developer",
+    "Software Engineer",
     "MLOps Engineer",
     "Data Analyst"
   ];
