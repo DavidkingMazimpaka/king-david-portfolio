@@ -1,57 +1,64 @@
 // src/data/projects.js
+import IOTImage from '../assets/images/IOT.png';
+import StrokeImage from '../assets/images/F3.png';
+import MobileAppImage from '../assets/images/Mobile-App.png';
+
 export const projects = [
     {
       id: 1,
-      title: "NutriGuard AI",
-      description: "AI-Powered EarlyMalnutrition Detection in Children under 5 years old",
-      image: "/api/placeholder/600/400",
-      technologies: ["Typescript", "FastAPI", "PostgreSQL"," TensorFlow", "Keras"],
+      title: "Air Quality Monitoring System",
+      description: "An IoT-based system built on ESP8266 that monitors air quality and environmental parameters in real-time.",
+      image: IOTImage,
+      technologies: ["ESP8266", "Firebase", "Adafruit IO", "IoT", "C++"],
       features: [
-        "Detecting malnutrition Multiclass Classification",
-        "Recommendation System",
-        "Personalized Nutrition Plan",
-        "Child Growth Monitoring"
+        "Real-time air quality monitoring",
+        "Temperature and humidity tracking",
+        "CO2 level detection with alert system",
+        "Cloud data storage and visualization",
+        "16x2 LCD display for local monitoring"
       ],
-      challenges: "Predicting the severity of malnutrition in children under 5 years old and recommending immediate intervention.",
-      solution: "Created a model that can predict the severity of malnutrition in children under 5 years old and recommending immediate intervention.",
-      demoUrl: "https://nutriguard-ai.onrender.com/",
-      codeUrl: "https://github.com/DavidkingMazimpaka/NutriGuard_Mission_Capstone",
-      fullDescription: "This project was built to address the need for early malnutrition detection in children under 5 years old in Western Province of Rwanda. The model can predict the severity of malnutrition a child and recommending immediate intervention."
+      challenges: "Integrating multiple sensors with ESP8266, ensuring reliable data transmission to cloud platforms, and implementing real-time alerts for CO2 threshold breaches.",
+      solution: "Developed a robust IoT system using ESP8266 that successfully integrates multiple sensors, provides real-time data visualization, and implements cloud storage with Firebase and Adafruit IO for comprehensive monitoring.",
+      demoUrl: "https://github.com/DavidkingMazimpaka/Air-Pollution-Monitoring-System/blob/main/README.md",
+      codeUrl: "https://github.com/DavidkingMazimpaka/Air-Pollution-Monitoring-System",
+      fullDescription: "This project is an Air Quality Monitoring System built on the ESP8266 platform. It uses multiple sensors to monitor air quality and environmental parameters, such as temperature, humidity, CO2 levels, and various other gases. The system sends real-time data to both Firebase and Adafruit IO for cloud storage and monitoring. The data is also displayed on a 16x2 LCD screen and triggers a buzzer for CO2 concentration alerts when levels exceed a set threshold."
     },
     {
       id: 2,
-      title: "Task Management Application",
-      description: "A Kanban-style project management tool with collaborative features, deadline tracking, and customizable workflows.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "TypeScript", "Firebase", "Styled-Components"],
+      title: "Stroke Analysis and Prediction",
+      description: "A machine learning system that predicts stroke risk based on patient demographics, medical history, and lifestyle factors.",
+      image: StrokeImage,
+      technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
       features: [
-        "Drag-and-drop task management",
-        "Team collaboration with real-time updates",
-        "Customizable project workflows",
-        "Task prioritization and deadline tracking"
+        "Patient risk assessment based on multiple parameters",
+        "Analysis of demographic and medical factors",
+        "Multiple classification algorithm comparison",
+        "Performance evaluation metrics",
+        "Data visualization and insights"
       ],
-      challenges: "Creating a seamless drag-and-drop experience across different devices with real-time updates for all team members.",
-      solution: "Implemented the React DnD library with custom hooks to handle touch and mouse events, combined with Firebase real-time database for synchronization.",
-      demoUrl: "https://example.com/task-app",
-      codeUrl: "https://github.com/yourusername/task-manager",
-      fullDescription: "This task management application was designed to streamline team workflows and improve productivity. The Kanban board interface allows for visual task tracking, while real-time updates ensure everyone stays in sync.\n\nI built this application using TypeScript to ensure type safety and reduce runtime errors. Firebase was used for authentication, database, and hosting, creating a fully integrated solution."
+      challenges: "Handling imbalanced dataset, selecting optimal features, and choosing the most accurate classification algorithm for stroke prediction.",
+      solution: "Implemented various classification algorithms including Random Forest, SVM, and Logistic Regression, with proper data preprocessing and feature selection techniques to achieve optimal prediction accuracy.",
+      demoUrl: "https://drive.google.com/file/d/1ANj0EKzx_8Xcy6GPzAvEbJ4Cc7p8ZMla/view?usp=sharing",
+      codeUrl: "https://github.com/DavidkingMazimpaka/Stroke_Analysis_and_Prediction",
+      fullDescription: "This project aims to predict whether a patient is likely to have a stroke based on various input parameters such as gender, age, medical conditions, and smoking status. The dataset contains information about patients, including their unique identifier, demographic details, medical history, and whether they have experienced a stroke.\n\nThe main objective of this project is to explore different classification algorithms and evaluate their performance in predicting stroke risk. The system analyzes various factors including age, gender, hypertension, heart disease, smoking status, and other medical indicators to provide accurate risk assessment."
     },
     {
       id: 3,
-      title: "Fitness Tracking App",
-      description: "A mobile-first web application for tracking workouts, nutrition, and fitness progress with personalized insights.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      title: "NOBOFA Nutrition Care",
+      description: "A comprehensive nutrition care and awareness platform offering natural health products and wellness solutions.",
+      image: MobileAppImage,
+      technologies: ["Flutter", "Firebase", "Provider", "GetX", "Stripe"],
       features: [
-        "Personalized workout plans based on user goals",
-        "Nutrition tracking with macro calculations",
-        "Progress visualization with interactive charts",
-        "Social features for workout sharing and challenges"
+        "Cross-platform mobile application for iOS and Android",
+        "Product showcase for Young Look Cream and Powder",
+        "NONOKA Tea and Aloe Vera tea product information",
+        "Nutrition and wellness education resources",
+        "Secure payment processing and order management"
       ],
-      challenges: "Creating an offline-first experience that syncs data when connection is restored, while maintaining a responsive UI.",
-      solution: "Implemented service workers and IndexedDB for offline data storage, with a custom synchronization system when connectivity is restored.",
-      demoUrl: "https://example.com/fitness-app",
-      codeUrl: "https://github.com/yourusername/fitness-tracker",
-      fullDescription: "The Fitness Tracking App was built to help users maintain consistent workout routines and nutrition habits. It provides personalized recommendations based on user data and goals.\n\nThe application features a full-stack implementation with React on the frontend and a Node.js/Express backend with MongoDB for data storage. Authentication is handled through JWT with refresh token rotation for enhanced security."
+      challenges: "Creating an engaging platform that effectively communicates the benefits of natural health products while providing a seamless shopping experience.",
+      solution: "Developed a user-friendly e-commerce platform with detailed product information, educational resources, and secure payment processing to promote natural health and wellness.",
+      demoUrl: "https://nobofastore.com",
+      codeUrl: "https://github.com/DavidkingMazimpaka/NOBOFA-App",
+      fullDescription: "NOBOFA is a nutrition care and awareness platform dedicated to promoting natural health and wellness. The platform offers a range of carefully selected products including Young Look Cream and Powder, NONOKA Tea, and Aloe Vera tea.\n\nThe application provides comprehensive information about each product's benefits and usage, along with educational resources about nutrition and wellness. The platform combines e-commerce functionality with educational content to help users make informed decisions about their health and wellness journey."
     }
   ];

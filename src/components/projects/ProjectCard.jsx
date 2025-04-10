@@ -13,11 +13,11 @@ const ProjectCard = ({ project }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="relative overflow-hidden h-48">
+      <div className="relative overflow-hidden h-64 bg-gray-100 dark:bg-gray-900 flex items-center justify-center">
         <img 
           src={image || "/api/placeholder/400/200"} 
           alt={title} 
-          className={`w-full h-full object-cover transition-transform duration-500 ${isHovered ? 'scale-110' : 'scale-100'}`}
+          className={`max-h-full max-w-full object-contain transition-transform duration-500 ${isHovered ? 'scale-105' : 'scale-100'}`}
         />
         
         <div className={`absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>

@@ -44,11 +44,11 @@ const AboutPage = () => {
                 <h2 className="text-2xl font-semibold mb-4 text-gray-100">What I Do</h2>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Develop full-stack web applications</li>
-                  <li>Implement machine learning solutions</li>
-                  <li>Design scalable system architectures</li>
+                  <li>Implement machine learning algorithms in decision making</li>
+                  <li>Data Analysis and Visualization</li>
                   <li>Create responsive and intuitive user interfaces</li>
-                  <li>Build and optimize RESTful APIs</li>
-                  <li>Practice agile development methodologies</li>
+                  <li>Build and optimize RESTful APIs with FastAPI</li>
+                  <li>Mobile App Development</li>
                 </ul>
               </div>
 
@@ -56,15 +56,17 @@ const AboutPage = () => {
                 <h2 className="text-2xl font-semibold mb-4 text-gray-100">Education & Certifications</h2>
                 <div className="space-y-4">
                   <div>
-                    <h3 className="text-xl font-medium text-blue-500">Bachelor's in Computer Science</h3>
-                    <p className="text-gray-400">University Name • 2019 - 2023</p>
+                    <h3 className="text-xl font-medium text-blue-500">Bachelor's in Software Engineering</h3>
+                    <p className="text-gray-400">African Leadership University • 2022 - 2025</p>
                   </div>
                   <div>
                     <h3 className="text-xl font-medium text-blue-500">Relevant Certifications</h3>
                     <ul className="list-disc pl-6 text-gray-300">
-                      <li>AWS Certified Developer</li>
+                      <li>Flutter Mobile Development</li>
                       <li>Machine Learning Specialization</li>
                       <li>Full Stack Web Development</li>
+                      <li>Kaggle 2025</li>
+                      <li>ALX Virtual Assistant</li>
                     </ul>
                   </div>
                 </div>
