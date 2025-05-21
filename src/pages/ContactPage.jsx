@@ -35,16 +35,16 @@ const ContactPage = () => {
             <div className="space-y-4">
               <div>
                 <h3 className="font-medium mb-2 text-gray-800 dark:text-white">Email</h3>
-                <p className="text-gray-600 dark:text-gray-300">your.email@example.com</p>
+                <p className="text-gray-600 dark:text-gray-300">mazimpakadavid607@gmail.com</p>
               </div>
               <div>
                 <h3 className="font-medium mb-2 text-gray-800 dark:text-white">Location</h3>
-                <p className="text-gray-600 dark:text-gray-300">Your City, Country</p>
+                <p className="text-gray-600 dark:text-gray-300">Kigali City, Rwanda</p>
               </div>
               <div>
                 <h3 className="font-medium mb-2 text-gray-800 dark:text-white">Social Media</h3>
                 <div className="flex space-x-4">
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary">
+                  <a href="https://github.com/DavidkingMazimpaka" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary">
                     GitHub
                   </a>
                   <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary">
