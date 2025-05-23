@@ -47,10 +47,10 @@ const ContactPage = () => {
                   <a href="https://github.com/DavidkingMazimpaka" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary">
                     GitHub
                   </a>
-                  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary">
+                  <a href="www.linkedin.com/in/king-david-mazimpaka-583182319" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary">
                     LinkedIn
                   </a>
-                  <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary">
+                  <a href="https://x.com/luca_ma_gee?s=21" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary">
                     Twitter
                   </a>
                 </div>
